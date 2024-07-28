@@ -15,7 +15,7 @@ with open('/content/randomforest_model.pkl', 'rb') as f:
 
 # Set up the Streamlit app
 st.title('Stroke Prediction App')
-
+st.markdown("#### A FINAL YEAR PROJECT WORK BY: ELIJAH OYINDAMOLA")
 # Create input fields for each feature
 gender = st.selectbox('Gender', ['Male', 'Female', 'Other'])
 age = st.slider('Age', 0.08, 82.0, 42.0)
