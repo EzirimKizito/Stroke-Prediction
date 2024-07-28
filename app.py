@@ -4,13 +4,13 @@ import numpy as np
 import pickle
 
 # Load the model and transformers
-with open('/content/min_max_scaler.pkl', 'rb') as f:
+with open('min_max_scaler.pkl', 'rb') as f:
     min_max_scaler = pickle.load(f)
 
-with open('/content/label_encoders.pkl', 'rb') as f:
+with open('label_encoders.pkl', 'rb') as f:
     label_encoders = pickle.load(f)
 
-with open('/content/randomforest_model.pkl', 'rb') as f:
+with open('randomforest_model.pkl', 'rb') as f:
     model = pickle.load(f)
 
 # Set up the Streamlit app
@@ -70,4 +70,6 @@ if st.button('Predict Stroke Risk'):
 
 # Add some information about the model and its use
 st.sidebar.header('About')
-st.sidebar.info('This app uses a Random Forest model to predict the risk of stroke based on various health and lifestyle factors. Please note that this is a simplified model and should not be used as a substitute for professional medical advice.')
+st.sidebar.info('This application uses a Random Forest model to predict the risk of stroke based on various health and lifestyle factors. It is developed as part of a final year project by Elijah Oyindamola, with matric number 19/52HA001. The model considers features such as age, hypertension, heart disease, smoking status, and other relevant factors to provide an assessment of stroke risk.
+
+The goal of this project is to leverage machine learning techniques to aid in early detection and prevention of stroke, potentially contributing to better healthcare outcomes. The application is designed to be user-friendly and accessible, providing valuable insights based on the input data.')
