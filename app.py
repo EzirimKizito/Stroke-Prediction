@@ -70,6 +70,4 @@ if st.button('Predict Stroke Risk'):
 
 # Add some information about the model and its use
 st.sidebar.header('About')
-st.sidebar.info('This application uses a Random Forest model to predict the risk of stroke based on various health and lifestyle factors. It is developed as part of a final year project by Elijah Oyindamola, with matric number 19/52HA001. The model considers features such as age, hypertension, heart disease, smoking status, and other relevant factors to provide an assessment of stroke risk.
-
-The goal of this project is to leverage machine learning techniques to aid in early detection and prevention of stroke, potentially contributing to better healthcare outcomes. The application is designed to be user-friendly and accessible, providing valuable insights based on the input data.')
+st.sidebar.info('This application uses a Random Forest model to predict the risk of stroke based on various health and lifestyle factors. It is developed as part of a final year project by Elijah Oyindamola, with matric number 19/52HA001. The model considers features such as age, hypertension, heart disease, smoking status, and other relevant factors to provide an assessment of stroke risk. The goal of this project is to leverage machine learning techniques to aid in early detection and prevention of stroke, potentially contributing to better healthcare outcomes. The application is designed to be user-friendly and accessible, providing valuable insights based on the input data.')
