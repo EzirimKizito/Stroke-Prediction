@@ -70,4 +70,4 @@ if st.button('Predict Stroke Risk'):
 
 # Add some information about the model and its use
 st.sidebar.header('About')
-st.sidebar.info('This application uses a Random Forest model to predict the risk of stroke based on various health and lifestyle factors.')
+st.sidebar.info('This application uses a Machine Learning Model to predict the risk of stroke based on various health and lifestyle factors.')
